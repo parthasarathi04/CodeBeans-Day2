@@ -126,30 +126,30 @@ class Scheduler {
 
 public class CourseSchedule {
 	
-	public static void main (String[] args){
+        public static void main (String[] args){
 	  	
-	  	Scheduler scheduler = new Scheduler(); // Scheduler object intialization
+		Scheduler scheduler = new Scheduler(); // Scheduler object intialization
 
 
-	  	// TestCase - 1
+		// TestCase - 1
 	  	int numCourses = 4; // Number of courses
 	  	
 	  	int[][] prerequisites = {
-              {1,0},
-              {2,0},
-              {3,1},
-              {3,2}
-        };
-        // prerequisites[i] = [ai, bi] indicates that you must take the course bi first, if you want to take the course ai
+              		{1,0},
+              		{2,0},
+              		{3,1},
+              		{3,2}
+        	};
+        	// prerequisites[i] = [ai, bi] indicates that you must take the course bi first, if you want to take the course ai
 	  	
 	  	
 	  	/*
 	  	// TestCase - 2
 	  	int numCourses = 2;
 	  	int[][] prerequisites = {
-              {1,0},
-              {0,1}
-        };
+              		{1,0},
+              		{0,1}
+        	};
 	  	*/
 		
 	  	
