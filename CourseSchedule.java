@@ -43,7 +43,7 @@ class Scheduler {
             if(!completed[course]) {
             	
                 // if the graph contains any cycle return false
-                // as at that case we cann't complete all those courses
+                // as at that case we can not complete all those courses
                 // because at that case one course will depend on itself directly or indirectly
                 // and it isn't possible to complete that course
                 if(isCyclic(graph, exploring, completed, course)) {
@@ -151,12 +151,10 @@ public class CourseSchedule {
               {0,1}
         };
 	  	*/
+		
 	  	
-	  	
-	  	if(scheduler.isPossible(numCourses, prerequisites))
-	  	    System.out.println("True");
-	  	else
-	  	    System.out.println("False");
+	  	// Print Output
+	  	System.out.println(scheduler.isPossible(numCourses, prerequisites));
 	  	
 	  }
 	  
